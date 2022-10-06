@@ -1,17 +1,16 @@
 .movie-card {
-  position: relative;
+  // position: relative;
 
-  img {
-    width: 14.31rem;
-    height: 21.25rem;
-  }
+  width: calc(14.31rem * 1.25);
+  height: calc(21.25rem * 1.25);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   > div {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    width: 100%;
+    height: 100%;
 
     display: flex;
     justify-content: center;
